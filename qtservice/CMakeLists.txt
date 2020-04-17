@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 project(Qt-Service LANGUAGES CXX)
-include(CMake/ProjectOut.cmake)
+include(../CMake/ProjectOut.cmake)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
