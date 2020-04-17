@@ -1,3 +1,3 @@
-[submodule "qtservice/CMake"]
-	path = qtservice/CMake
+[submodule "CMake"]
+	path = CMake
 	url = https://github.com/QuasarApp/CMake.git
