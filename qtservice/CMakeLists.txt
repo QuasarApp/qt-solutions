@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.1)
 
 project(Qt-Service LANGUAGES CXX)
+if(TARGET ${PROJECT_NAME})
+  message("The ${PROJECT_NAME} arledy included in main Project")
+  return()
+endif()
+
 include(../CMake/ProjectOut.cmake)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
